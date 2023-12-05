@@ -1,0 +1,19 @@
+﻿<Page x:Class="Registeration_Login_APP.deleteORsearch"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Registeration_Login_APP"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="deleteORsearch">
+
+    <Grid Background="Wheat" >
+        <Label Height="50" Width="300" Content="what do you want?" FontSize="25" Margin="250,35,250,365" />
+
+        <Button Content="search" x:Name="searchBTN"  Style="{StaticResource buttonstyle}" Margin="300,225,300,175" Click="searchBTN_Click" />
+        <Button Content="delete" x:Name="deleteBTN"  Style="{StaticResource buttonstyle}" Margin="300,303,300,97" Click="deleteBTN_Click" />
+
+
+    </Grid>
+</Page>

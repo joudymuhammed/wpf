@@ -1,0 +1,22 @@
+﻿<Page x:Class="Registeration_Login_APP.delete"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Registeration_Login_APP"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="delete">
+
+    <Grid Background="Wheat" >
+        <Label Content="phone num"  Style="{StaticResource labelstyle}" Margin="69,44,611,356" />
+
+        <Button x:Name="deleteBTN" Content="delete"  Style="{StaticResource buttonstyle}" Margin="567,44,33,356" Click="deleteBTN_Click"/>
+        <Button x:Name="refresh" Content="refrsh"  Style="{StaticResource buttonstyle}" Margin="567,147,33,253" Click="refresh_Click" />
+
+        <TextBox x:Name="deletetext" Style="{StaticResource textboxstyle}" Margin="275,44,275,356" />
+        <DataGrid x:Name="datagridDelete" Margin="182,336,174,10" SelectionChanged="datagridDelete_SelectionChanged"/>
+
+
+    </Grid>
+</Page>
